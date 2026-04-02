@@ -7,7 +7,7 @@ export function renderHero() {
   <!-- Background pic -->
   <div class="relative h-[40vw] sm:h-[60vh] md:h-[60vh]">
   <img
-    src="./img/hero/hero10.png" 
+    src="/img/hero/hero10.png" 
     alt="Hero bakgrund" 
     class="absolute top-0 w-full h-full object-cover"
   />
