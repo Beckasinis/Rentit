@@ -2,7 +2,7 @@ import { renderProducts } from "../components/productCards.js";
 
 //Renders product cards based on ids from URL
 export async function render(route, id) {
-  const response = await fetch("./public/data.json");
+  const response = await fetch("/public/data.json");
   const data = await response.json();
 
   const ids = id ? id.split(",") : [];
