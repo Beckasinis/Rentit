@@ -31,7 +31,7 @@ export async function initSearch() {
   // Only fetch products once
   if (!isInitialized) {
     try {
-      const response = await fetch("./src/data.json");
+      const response = await fetch("./public/data.json");
 
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
