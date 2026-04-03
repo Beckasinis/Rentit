@@ -4,6 +4,8 @@
 
 Byggt som ett lärandeprojekt i kursen JavaScript 1, med avsikt att förbereda oss för kommande ramverk.
 
+Live Demo: https://rentitproject.netlify.app/#home
+
 ## Collaborators och ansvarsområden
 
 - Rebecca Martis – Sökfunktion och extern data.  
