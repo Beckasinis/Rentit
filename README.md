@@ -3,13 +3,14 @@
 **Rentit** är en Vanilla JavaScript SPA byggd med Vite och Tailwind CSS. Data hanteras via en mock-backend (`data.json`) och localStorage, kompletterat med externa API:er för testimonials och översättning.
 
 Byggt som ett lärandeprojekt i kursen JavaScript 1, med avsikt att förbereda oss för kommande ramverk.
-
-Live Demo: https://rentitproject.netlify.app/#home
+Detta är en clone och originalet ligger här: https://github.com/anneliejrova/rentit
+ 
+🎬 **[Live demo](https://rentitproject.netlify.app/)**
 
 ## Collaborators och ansvarsområden
 
 - Rebecca Martis – Sökfunktion och extern data.  
-- Annelie Johansson Rova – Bokningssystem och intern data.      
+- **[Annelie Johansson Rova]((https://github.com/anneliejrova))** – Bokningssystem och intern data.
 
 ## Projektbeskrivning
 
@@ -58,38 +59,42 @@ rentit/
 ├── README.md
 ├── vite.config.js
 ├── .gitignore
+├── public/
+│   ├── img/
+│   ├── _redirects.md
+│   └── data.json
 └── src/
     ├── main.js
     ├── router.js
     ├── routes.js
     ├── style.css
     ├── tailwind.config.js
-    ├── data.json
     ├── components/
-    │   ├── header.js
-    │   ├── footer.js
-    │   ├── nav.js
-    │   ├── mobileMenu.js
-    │   ├── search.js
-    │   ├── hero.js
-    │   ├── values.js
-    │   ├── howTo.js
     │   ├── about.js
-    │   ├── testimonials.js
-    │   ├── productCards.js
     │   ├── calendar.js
     │   ├── cartDropdown.js
-    │   └── toggleCartBtn.js
+    │   ├── footer.js
+    │   ├── header.js
+    │   ├── hero.js
+    │   ├── howTo.js
+    │   ├── mobileMenu.js
+    │   ├── nav.js
+    │   ├── productCards.js
+    │   ├── search.js
+    │   ├── testimonials.js
+    │   ├── toggleCartBtn.js
+    │   └── values.js
     ├── views/
-    │   ├── home.js
     │   ├── category.js
-    │   ├── product.js
     │   ├── checkout.js
-    │   └── confirmation.js
+    │   ├── confirmation.js
+    │   ├── home.js
+    │   └── product.js
     └── utils/
-        ├── data.js
+        ├── availability.js
         ├── cart.js
         ├── cartCount.js
-        ├── availability.js
-        └── checkout.js
+        ├── checkout.js
+        ├── data.js
+        └── helpers.js
 ```
