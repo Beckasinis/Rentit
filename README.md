@@ -10,7 +10,7 @@ Detta är en clone och originalet ligger här: https://github.com/anneliejrova/r
 ## Collaborators och ansvarsområden
 
 - Rebecca Martis – Sökfunktion och extern data.  
-- **[Annelie Johansson Rova]((https://github.com/anneliejrova))** – Bokningssystem och intern data.
+- Annelie Johansson Rova – Bokningssystem och intern data. (https://github.com/anneliejrova)
 
 ## Projektbeskrivning
 
